@@ -21,9 +21,15 @@ Route::get('/pageOne', function () {
     return '<h1>This is test page one </h1>';
 });
 
+Route::get('/pageTwo', function () {
+    return '<h1>This is test page one </h1>';
+  });
+
 Route::get('/about', function () {
   return view('pages.about');
 });
+
+
 
 Route::get('/users/{id}', function ($id) {
     return 'this is user '.$id; 
