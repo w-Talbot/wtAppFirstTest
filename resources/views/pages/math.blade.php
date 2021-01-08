@@ -2,7 +2,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        Input two numbers whose product is between 0 and 100 <br> <br> <hr>
+        <title> MAths</title>
+        <!-- <link rel="stylesheet" type="text/css" href="resources/css/style.css"> -->
+        <link href="{{asset('/css/style.css') }}" rel="stylesheet" type="text/css" >
+      
+        <h1>Input two numbers whose product is between 0 and 100 </h1> <br> <br> <hr>
     </head>
     
     <body>
