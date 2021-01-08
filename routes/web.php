@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+ });
 
 Route::get('/pageOne', function () {
     return '<h1>This is test page one </h1>';
@@ -25,13 +25,12 @@ Route::get('/pageTwo', function () {
     return '<h1>This is test page one </h1>';
   });
 
-Route::get('/about', function () {
-  return view('pages.about');
+Route::get('/math', function () {
+  return view('pages.math');
 });
-
-
 
 Route::get('/users/{id}', function ($id) {
     return 'this is user '.$id; 
   });
+
 

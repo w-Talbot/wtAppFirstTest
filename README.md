@@ -1,2 +1,2 @@
-API Enpoint Test
+LARAVEL TEST
 UPDATE TEST
